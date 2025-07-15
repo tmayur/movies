@@ -15,7 +15,7 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ.get('API_ID', '28594907'))
 API_HASH = environ.get('API_HASH', 'bc291485282a77e015127cf425115b38')
-BOT_TOKEN = environ.get('BOT_TOKEN', '7843397618:AAH81DdY2N6V1YdJaGkwjyQyjK6ttRyBUHs')
+BOT_TOKEN = environ.get('BOT_TOKEN', '7732000162:AAFJVC2pdERbSdDchtoT1PmzlS0sfWeRA1U')
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '521878164').split()]
@@ -31,7 +31,7 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 #----------- There will be channel id add in all these ---------
-LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', '0'))  
+LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', '-1001622092675'))  
 BIN_CHANNEL = int(environ.get('BIN_CHANNEL','0'))
 DELETE_CHANNELS = int(environ.get('DELETE_CHANNELS','0'))
 LOG_VR_CHANNEL = int(environ.get('LOG_VR_CHANNEL', '0'))
